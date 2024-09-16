@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    /* background-color: gold; */
+   /* background-image: url(https://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpg.webp); */
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: right;
+   background-attachment: fixed;
+   animation:mudarCores 5s infinite;
+   
+}
+img{
+    height: 200px;
+}
+main{
+
+    border: blue 3px solid;
+    width: 70%;
+    margin: auto;
+    padding:25px;
+    background-color: rgba(187, 179, 179, 0.635);
+    border-radius: 50px;
+    font-family: sans-serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 0, 0);
+    /* font-weight:bold; */
+    /* font-style:oblique; */
+    font-stretch: extra-expanded;
+    line-height: 20px;
+    /* letter-spacing:1px; */
+    /* word-spacing:2px; */
+    text-align: justify;
+    text-decoration:underline dashed;
+    /* text-transform */
+    text-indent: 20px;
+    text-shadow: 15px;
+    
+}
+h1{
+    /* background-image: ; */
+    /* color: ; */
+    /* text-align: center; */
+
+}
+h1{
+    text-align: center;
+    
+}
+
+    
+@keyframes mudarCores{
+50%{
+    background-color: blueviolet;
+}
+100%{
+    background-color: rgb(0, 80, 230);
+}
+
+}
